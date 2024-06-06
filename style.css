@@ -1,0 +1,777 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parisienne", cursive;
+    
+    
+}
+
+
+body{
+    background-image: url("./images/11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+.margen-arriba-abajo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+.margen-arriba-abajo-texto{
+    margin-top: 4px;
+    margin-bottom: 250px;
+    
+   
+}
+
+.tamaño-letra-nuestra-boda{
+    letter-spacing: 3px;
+    font-size: 38px;
+    text-align: center;
+  
+
+}
+.tamaño-letra-novios{
+    letter-spacing: 4px;
+    font-size: 35px;
+    text-align: center;
+}
+.tamaño-letra-fecha{
+    letter-spacing: 8px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-shadow: 2px 4px 6px rgb(14, 14, 14);
+}
+.tamaño-letra-fecha-numero{
+    letter-spacing: 4px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-shadow: 2px 4px 6px rgb(14, 14, 14);
+    color: gold;
+}
+
+.tamaño-letra-fecha-mes{
+    letter-spacing: 8px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-shadow: 2px 4px 6px rgb(14, 14, 14);
+}
+.tamaño-letra-fecha-mes-contador{
+    letter-spacing: 3px;
+    /* font-size: 40px; */
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight:500;
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+.tamaño-letra-fecha-mes-invitados{
+    letter-spacing: 3px;
+    /* font-size: 40px; */
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight:500;
+    color: #345952;
+    font-weight: bold;
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+
+.tamaño-letra-padres{
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.foto{
+    background-image: url(./images/juntos_01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    /* filter: brightness(1.3); */
+    /* box-shadow: inset 0 0 20px 20px rgba(214, 213, 213, 0.5); */
+}
+
+
+.position-relative {
+    position: relative;
+}
+
+/* Estilo para el contenedor de la imagen */
+.image-container {
+    position: relative;
+}
+
+/* Estilo para el cuadro superpuesto */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #345952; /* Fondo semi-transparente */
+    color: white; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    border: 2px solid goldenrod; /* Borde dorado */
+    box-shadow: 0 0 5px goldenrod, 0 0 10px goldenrod, 0 0 15px goldenrod; /* Sombra luminosa */
+    width: 70%;
+    z-index: 1;
+}
+
+/* Estilo para el texto dentro del cuadro */
+.overlay-text {
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.row-width{
+    width: 100%;
+    
+}
+
+
+/*parte del contador */
+
+/* .countdown-container {
+    display: flex; 
+    gap: 20px;
+    
+} */
+
+.countdown-box {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px; 
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+}
+
+.countdown-box span {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.countdown-box-contador span {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.countdown-box-contador p {
+    margin: 0;
+    font-size: 20px;
+}
+.countdown-box p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+.foto-segunda-seccion{
+    background-image: url(./images/ring.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  
+}
+.margen-arriba-abajo-second{
+    margin-top: 320px;
+    margin-bottom: 0px;
+    
+}
+
+.overlay-second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo oscuro semi-transparente */
+    z-index: 0; /* Asegura que esté detrás del texto */
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+}
+.text-container-dedicatoria h2{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 25px;
+    /* text-shadow: 11px 5px 12px rgb(145, 144, 144); */
+    text-shadow: 1px 2px 2px rgb(218, 165, 32);
+    font-weight: bold;
+    /* font-family: "Parisienne"; */
+    /* font-family: "Courgette", cursive; */
+    font-family: "Send Flowers", cursive;
+    max-width: 80%;
+    white-space: normal;
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+}
+.text-container-dedicatoria p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: "Send Flowers", cursive;
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+}
+
+.image-container-second {
+    position: relative;
+}
+
+/* Estilo para el cuadro superpuesto */
+.overlay-2  {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #D9C6AE; /* Fondo semi-transparente */
+    /* color: #345952; */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    border: 2px solid goldenrod; /* Borde dorado */
+    box-shadow: 0 0 5px goldenrod, 0 0 10px goldenrod, 0 0 15px goldenrod; /* Sombra luminosa */
+    width: 70%;
+    z-index: 1;
+}
+
+/* Estilo para el texto dentro del cuadro */
+.overlay-text-2 {
+    margin: 0;
+    letter-spacing: 3px;
+    color: #345952;
+    font-weight: bold;
+    /* font-family: "Courgette"; */
+    /* font-family: "Alumni Sans Pinstripe", sans-serif;  */
+    font-family: "Yaldevi", sans-serif;
+    font-size: 18px;
+}
+
+.novia-line {
+    background-color: #345952; /* Color de la franja */
+    margin-bottom: 20px; /* Espacio entre la franja y el texto "Padres de la novia" */
+    padding: 10px 0; /* Espaciado interno para el texto */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para el texto dentro de la franja */
+.novia-line h2 {
+    margin: 0; /* Elimina el margen del texto */
+}
+
+.margen-arriba-abajo-padres{
+    margin-top: 200px;
+    margin-bottom: 50px;
+   
+}
+
+.margen-arriba-abajo-padres2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.margen-arriba-abajo-padrinos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.image-container-third {
+    position: relative;
+    z-index: 1;
+}
+
+/* Estilo para el cuadro superpuesto */
+.overlay-3 {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #345952; /* Fondo semi-transparente */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    border: 2px solid goldenrod; /* Borde dorado */
+    box-shadow: 0 0 5px goldenrod, 0 0 10px #daa520, 0 0 15px goldenrod; /* Sombra luminosa */
+    width: 70%;
+    z-index: 1;
+}
+
+
+
+
+
+/* Estilo para el texto dentro del cuadro */
+.overlay-text-3 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Courgette";
+    color: #ffff;
+    letter-spacing: 3px;
+}
+
+.foto-tercera-seccion{
+    background-image: url(./images/juntos_kiss.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+
+}
+
+
+.margen-arriba-abajo-third{
+    margin-top: 220px;
+    margin-bottom: 50px;
+    
+}
+
+.margen-arriba-abajo-fourth{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+.margen-arriba-abajo-five{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    
+}
+
+.margen-arriba-abajo-six{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.overlay-third {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo oscuro semi-transparente */
+    z-index: 0; /* Asegura que esté detrás del texto */
+
+    
+}
+
+.text-container-vestimenta{
+    max-width: 100%;
+    white-space: normal;
+}
+
+.text-container-vestimenta h2{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-shadow: 11px 5px 12px rgb(145, 144, 144);
+    font-weight: bold;
+    /* font-family: "Parisienne"; */
+    font-family: "Send Flowers", cursive;
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+
+    
+    /* top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: "Send Flowers", cursive; */
+}
+.text-container-vestimenta h3{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+    text-shadow: 11px 5px 12px rgb(145, 144, 144);
+    /* font-family: "Courgette", cursive; */
+    /* font-family: "Yaldevi", sans-serif; */
+    font-family: "Send Flowers", cursive;
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+}
+
+
+.margen-arriba-abajo-cuarta{
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+
+/* linea del tiempo */ 
+
+.timeline-container {
+    max-width: 600px; /* Ancho máximo de la línea de tiempo */
+    margin: 0 auto; /* Centrar en la página */
+    position: relative; /* Para posicionar los indicadores */
+}
+
+.timeline {
+    position: relative;
+    margin-left: 40px; /* Espacio para los iconos */
+}
+
+.timeline-event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timeline-icon {
+    flex-shrink: 0;
+    width: 40px; /* Ancho del icono */
+    height: 40px; /* Alto del icono */
+    border-radius: 50%;
+    background-color: #007bff; /* Color del icono */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.timeline-content {
+    margin-left: 20px; /* Espacio entre el icono y el texto */
+}
+
+.timeline-event.active .timeline-icon {
+    background-color: #345952; /* Color del icono activo */
+    color: goldenrod;
+    z-index: 1;
+}
+
+.timeline-event.active .timeline-icon i {
+    color: white; /* Color del ícono activo */
+}
+
+/* Estilos para hacer la línea vertical */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px; /* Posición de la línea vertical */
+    width: 2px; /* Grosor de la línea */
+    background-color: #070707; /* Color de la línea */
+    z-index: 0;
+}
+
+/* Estilos para el texto */
+.timeline-content h3 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+}
+
+.timeline-content p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* iglesia*/
+.fondo-verde{
+    background-color: #345952;
+}
+
+.foto-cuarta-seccion{
+    background-image: url(./images/family_.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  
+}
+.foto-quinta-seccion{
+    background-color: #345952;
+    /* height: 100vh; */
+
+}
+.foto-sexta-seccion{
+    background-color: #345952;
+    /* height: 100vh; */
+
+}
+
+
+.formato-texto{
+    
+    font-weight: bold;
+    color: #515050;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+.formato-texto-padres{
+    
+    font-weight: bold;
+    color: #515050;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    /* text-shadow: 15px 8px 9px rgb(14, 14, 14); */
+}
+
+
+.bordes-cards-papas{
+    border-radius: 10px; /* Bordes redondeados */
+    border: 2px solid goldenrod; /* Borde dorado */
+}
+
+.texto-papas-cards{
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #ffff ;
+    font-family: "Parisienne", cursive;
+    /* font-family: "Alumni Sans Pinstripe", sans-serif; */
+    /* text-shadow: 20px 0px 12px rgb(240, 236, 236); */
+}
+.texto-papas-cards-sub{
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #ffff ;
+    /* font-family: "Parisienne", cursive; */
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    /* text-shadow: 20px 0px 12px rgb(240, 236, 236); */
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.box-shadow-iglesia-salon{
+    box-shadow: 0 0 5px goldenrod, 0 0 10px #daa520, 0 0 15px goldenrod;
+    
+}
+
+.texto-iglesia-salon-h3{
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+}
+.texto-iglesia-salon-p{
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+}
+.texto-iglesia-salon-h1{
+    letter-spacing: 3px;
+    color: #345952;
+    font-size: 20px;
+    font-family: "Yaldevi", sans-serif;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+}
+
+.color-linea-iglesia{
+    background-color: #daa520;
+}
+.color-linea-iglesia-green{
+    background-color: #000000fc;
+}
+
+.boton-gps{
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #D9C6AE; /* Fondo semi-transparente */
+    color: #345952 !important; 
+    font-family: "Yaldevi", sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    border: 2px solid goldenrod; /* Borde dorado */
+    box-shadow: 0 0 2px goldenrod, 0 0 2px #daa520, 0 0 2px goldenrod; /* Sombra luminosa */ 
+    text-decoration: none;
+}
+
+.boton-gps:hover{
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #345952; /* Fondo semi-transparente */
+    color: goldenrod !important; 
+    
+}
+
+
+.formato-texto-regalos-h5{
+    letter-spacing: 3px;
+    font-weight: bold;
+    /* color: #515050; */
+    color: #345952;
+    text-shadow: 2px 2px 3px rgb(218, 165, 32);
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+.formato-texto-regalos-p{
+    letter-spacing: 2px;
+    font-weight: bold;
+    /* color: #515050; */
+    color: #345952;
+    
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+
+.regalos-back{
+    background-color: #D9C6AE;
+}
+.confirmacion-back{
+    background-color: #345952;
+}
+
+.formato-texto-confirma-h5{
+    letter-spacing: 3px;
+    font-weight: bold;
+    /* color: #515050; */
+    color: #345952;
+    text-shadow: 2px 2px 3px rgb(218, 165, 32);
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+
+.borde-whats{
+    border: #345952;
+}
+
+.texto-whats-salon-h1{
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Yaldevi", sans-serif; 
+    /* font-family: "Parisienne", cursive; */
+    /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
+}
+
+.img-whats{
+    width: 40px;
+   
+}
+
+.hr-back{
+    background-color: #fff;
+}
+
+.formato-texto-confirmacion-p{
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: "Yaldevi", sans-serif;
+    
+    /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
+}
+
+
+.boton-gps-whats{
+    /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
+    background-color: #345952; /* Fondo semi-transparente */
+    color: goldenrod !important; 
+    font-family: "Yaldevi", sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    border: 2px solid goldenrod; /* Borde dorado */
+    box-shadow: 0 0 2px goldenrod, 0 0 2px #daa520, 0 0 2px goldenrod; /* Sombra luminosa */ 
+    text-decoration: none;
+}
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .scroll-reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+/* .texto-final-salon-h3{
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+} */
+
+
+.text-container-final {
+    position: absolute;
+    letter-spacing: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    
+    z-index: 1; /* Asegura que esté por encima del fondo oscuro */
+}
+
+.texto-final{
+    font-size: 70px;
+}
+
+
+    
+    
+    
+    
+
+
+
+
+
