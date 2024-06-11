@@ -34,8 +34,10 @@ body{
 
 .tamaño-letra-nuestra-boda{
     letter-spacing: 3px;
-    font-size: 38px;
+    font-size: 30px;
     text-align: center;
+    align-items: center;
+    padding-top: 10px;
   
 
 }
@@ -226,15 +228,17 @@ body{
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-    letter-spacing: 5px;
-    font-size: 25px;
-    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    letter-spacing: 7px;
+    font-size: 22px;
+    /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
     /* text-shadow: 1px 2px 2px rgb(218, 165, 32); */
     /* font-weight: bold; */
     /* font-family: "Parisienne"; */
-    /* font-family: "Courgette", cursive; */
+    font-family: "Courgette", cursive;
     /* font-family: "Send Flowers", cursive; */
-    font-family: "Yaldevi", sans-serif;
+    /* font-family: "Yaldevi", sans-serif; */
+    /* font-family: "Parisienne", cursive; */
+    /* font-weight: 500; */
     max-width: 80%;
     white-space: normal;
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
@@ -249,7 +253,8 @@ body{
     letter-spacing: 5px;
     font-size: 20px;
     /* font-family: "Send Flowers", cursive; */
-    font-family: "Yaldevi", sans-serif;
+    /* font-family: "Yaldevi", sans-serif; */
+    font-family: "Courgette", cursive;
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
 }
 
@@ -269,8 +274,8 @@ body{
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
     text-align: center; /* Texto centrado */
-    border: 2px solid goldenrod; /* Borde dorado */
-    box-shadow: 0 0 5px goldenrod, 0 0 10px goldenrod, 0 0 15px goldenrod; /* Sombra luminosa */
+    border: 2px solid #345952; /* Borde dorado */
+    box-shadow: 0 0 5px #345952, 0 0 10px #345952, 0 0 15px #345952; /* Sombra luminosa */
     width: 70%;
     z-index: 1;
 }
@@ -284,7 +289,7 @@ body{
     /* font-family: "Courgette"; */
     /* font-family: "Alumni Sans Pinstripe", sans-serif;  */
     font-family: "Yaldevi", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .novia-line {
@@ -324,7 +329,7 @@ body{
 /* Estilo para el cuadro superpuesto */
 .overlay-3 {
     position: absolute;
-    top: 190px;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
@@ -346,7 +351,7 @@ body{
 /* Estilo para el texto dentro del cuadro */
 .overlay-text-3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     /* font-family: "Courgette"; */
     font-family: "Yaldevi", sans-serif;
     color: #ffff;
@@ -407,7 +412,7 @@ body{
 
 .text-container-vestimenta h2{
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -415,8 +420,9 @@ body{
     letter-spacing: 8px;
     font-size: 20px;
     /* font-weight: bold; */
-    text-shadow: 2px 4px 6px rgb(218, 165, 32);
-    font-family: "Yaldevi", sans-serif;
+    /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
+    font-family: "Courgette", cursive;
+    /* font-family: "Yaldevi", sans-serif; */
     /* font-family: "Parisienne"; */
     /* font-family: "Send Flowers", cursive; */
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
@@ -440,9 +446,9 @@ body{
     text-align: center;
     letter-spacing: 8px;
     font-size: 20px;
-    text-shadow: 2px 4px 6px rgb(218, 165, 32);
-    font-family: "Yaldevi", sans-serif;
-    /* font-family: "Courgette", cursive; */
+    /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
+    /* font-family: "Yaldevi", sans-serif; */
+    font-family: "Courgette", cursive;
     /* font-family: "Yaldevi", sans-serif; */
     
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
@@ -706,11 +712,21 @@ body{
 }
 
 .texto-whats-salon-h1{
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     color: #ffffff;
-    font-size: 20px;
-    font-family: "Yaldevi", sans-serif; 
-    /* font-family: "Parisienne", cursive; */
+    font-size: 22px;
+    /* font-family: "Yaldevi", sans-serif;  */
+    font-family: "Parisienne", cursive;
+    /* font-family: "Alumni Sans Pinstripe", sans-serif; */
+    /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
+}
+.texto-whats-salon-h2{
+    letter-spacing: 6px;
+    color: #ffffff;
+    font-size: 18px;
+    /* font-family: "Yaldevi", sans-serif;  */
+    font-family: "Parisienne", cursive;
+    /* font-family: "Alumni Sans Pinstripe", sans-serif; */
     /* text-shadow: 2px 4px 6px rgb(218, 165, 32); */
 }
 
@@ -726,7 +742,8 @@ body{
 .formato-texto-confirmacion-p{
     letter-spacing: 2px;
     color: #ffffff;
-    font-family: "Yaldevi", sans-serif;
+    /* font-family: "Yaldevi", sans-serif; */
+    font-family: "Alumni Sans Pinstripe", sans-serif;
     
     /* text-shadow: 2px 4px 6px rgb(14, 14, 14); */
 }
@@ -827,6 +844,24 @@ body{
     width: 25px;
     margin-right: 5px;
 }
+/*
+.img_rosa{
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    animation: zoomInOut 7s infinite; /* Aplicar la animación 
+    
+}
+*/
+/* Animación de zoom in y zoom out */
+/* @keyframes zoomInOut {
+    0%, 20% {
+        transform: scale(1); 
+    }
+    30% {
+        transform: scale(1.5); 
+    }
+} */
 
 
     
