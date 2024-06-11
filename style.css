@@ -797,7 +797,10 @@ body{
 .play-btn, .stop-btn {
     /* background-color: #345952; */
     background-color: transparent;
-    color: white;
+    color: black;
+    font-family: "Yaldevi", sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
     border: none;
     padding: 4px 5px;
     letter-spacing: 6px;
