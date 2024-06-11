@@ -36,3 +36,26 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const audio = document.getElementById('audio');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const stopBtn = document.getElementById('stop-btn');
+
+    playPauseBtn.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseBtn.textContent = 'Parar';
+        } else {
+            audio.pause();
+            playPauseBtn.textContent = 'Reproducir';
+        }
+    });
+
+    stopBtn.addEventListener('click', () => {
+        audio.pause();
+        audio.currentTime = 0;
+        playPauseBtn.textContent = 'Play';
+    });
+});

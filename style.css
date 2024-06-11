@@ -30,6 +30,8 @@ body{
    
 }
 
+
+
 .tamaño-letra-nuestra-boda{
     letter-spacing: 3px;
     font-size: 38px;
@@ -54,7 +56,8 @@ body{
     font-size: 60px;
     text-align: center;
     font-family: "Alumni Sans Pinstripe", sans-serif;
-    text-shadow: 2px 4px 6px rgb(14, 14, 14);
+    font-weight: bold;
+    /* text-shadow: 2px 2px 3px rgb(218, 165, 32); */
     color: gold;
 }
 
@@ -63,7 +66,8 @@ body{
     font-size: 30px;
     text-align: center;
     font-family: "Alumni Sans Pinstripe", sans-serif;
-    text-shadow: 2px 4px 6px rgb(14, 14, 14);
+    /* text-shadow: 2px 2px 3px rgb(218, 165, 32); */
+    font-weight: 700;
 }
 .tamaño-letra-fecha-mes-contador{
     letter-spacing: 3px;
@@ -91,7 +95,7 @@ body{
 }
 
 .foto{
-    background-image: url(./images/juntos_01.jpeg);
+    background-image: url(./images/principal.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -224,12 +228,13 @@ body{
     text-align: center;
     letter-spacing: 5px;
     font-size: 25px;
-    /* text-shadow: 11px 5px 12px rgb(145, 144, 144); */
-    text-shadow: 1px 2px 2px rgb(218, 165, 32);
-    font-weight: bold;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    /* text-shadow: 1px 2px 2px rgb(218, 165, 32); */
+    /* font-weight: bold; */
     /* font-family: "Parisienne"; */
     /* font-family: "Courgette", cursive; */
-    font-family: "Send Flowers", cursive;
+    /* font-family: "Send Flowers", cursive; */
+    font-family: "Yaldevi", sans-serif;
     max-width: 80%;
     white-space: normal;
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
@@ -243,7 +248,8 @@ body{
     text-align: center;
     letter-spacing: 5px;
     font-size: 20px;
-    font-family: "Send Flowers", cursive;
+    /* font-family: "Send Flowers", cursive; */
+    font-family: "Yaldevi", sans-serif;
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
 }
 
@@ -318,7 +324,7 @@ body{
 /* Estilo para el cuadro superpuesto */
 .overlay-3 {
     position: absolute;
-    top: 150px;
+    top: 190px;
     left: 50%;
     transform: translate(-50%, -50%);
     /* background-color: rgba(0, 0, 0, 0.5); Fondo semi-transparente */
@@ -341,7 +347,8 @@ body{
 .overlay-text-3 {
     margin: 0;
     font-size: 18px;
-    font-family: "Courgette";
+    /* font-family: "Courgette"; */
+    font-family: "Yaldevi", sans-serif;
     color: #ffff;
     letter-spacing: 3px;
 }
@@ -407,10 +414,11 @@ body{
     text-align: center;
     letter-spacing: 8px;
     font-size: 20px;
-    text-shadow: 11px 5px 12px rgb(145, 144, 144);
-    font-weight: bold;
+    /* font-weight: bold; */
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    font-family: "Yaldevi", sans-serif;
     /* font-family: "Parisienne"; */
-    font-family: "Send Flowers", cursive;
+    /* font-family: "Send Flowers", cursive; */
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
 
     
@@ -432,10 +440,11 @@ body{
     text-align: center;
     letter-spacing: 8px;
     font-size: 20px;
-    text-shadow: 11px 5px 12px rgb(145, 144, 144);
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    font-family: "Yaldevi", sans-serif;
     /* font-family: "Courgette", cursive; */
     /* font-family: "Yaldevi", sans-serif; */
-    font-family: "Send Flowers", cursive;
+    
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
 }
 
@@ -444,6 +453,11 @@ body{
     margin-top: 50px;
     margin-bottom: 20px;
    
+}
+
+.img-contenedor{
+    border-radius: 10px;
+    box-shadow: 0 0 5px goldenrod, 0 0 10px #daa520, 0 0 15px goldenrod;
 }
 
 /* linea del tiempo */ 
@@ -480,6 +494,7 @@ body{
 
 .timeline-content {
     margin-left: 20px; /* Espacio entre el icono y el texto */
+    
 }
 
 .timeline-event.active .timeline-icon {
@@ -517,6 +532,8 @@ body{
     margin-top: 5px;
     font-size: 14px;
     color: #666;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
+    font-family: "Yaldevi", sans-serif;
 }
 
 
@@ -526,7 +543,7 @@ body{
 }
 
 .foto-cuarta-seccion{
-    background-image: url(./images/family_.jpeg);
+    background-image: url(./images/noemi_antonio.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -757,12 +774,50 @@ body{
     color: white;
     text-align: center;
     text-shadow: 2px 4px 6px rgb(218, 165, 32);
+   
     
     z-index: 1; /* Asegura que esté por encima del fondo oscuro */
 }
 
 .texto-final{
     font-size: 70px;
+}
+
+/* audio   */
+
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.play-btn, .stop-btn {
+    /* background-color: #345952; */
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 4px 5px;
+    letter-spacing: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 2px goldenrod, 0 0 2px #daa520, 0 0 2px goldenrod;
+}
+
+.play-btn:hover, .stop-btn:hover {
+    /* background-color: goldenrod; */
+    background-color: transparent;
+    color: #070707;
+    font-family: "Yaldevi", sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 4px 6px rgb(218, 165, 32);
 }
 
 
