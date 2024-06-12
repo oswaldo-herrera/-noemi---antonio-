@@ -848,24 +848,23 @@ body{
     width: 25px;
     margin-right: 5px;
 }
-/*
-.img_rosa{
-    display: inline-block;
-    max-width: 50%;
-    height: auto;
-    animation: zoomInOut 7s infinite; /* Aplicar la animación 
+
+.play-music {
     
+    
+
+    animation: zoomInOut 4s infinite; /* Aplicar la animación */
 }
-*/
+
 /* Animación de zoom in y zoom out */
-/* @keyframes zoomInOut {
-    0%, 20% {
-        transform: scale(1); 
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1); /* Escala original */
     }
-    30% {
-        transform: scale(1.5); 
+    50% {
+        transform: scale(1.1); /* Escala al 105% */
     }
-} */
+}
 
 
     
