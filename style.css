@@ -101,7 +101,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    width: 90%;
     height: 100vh;
+    border-radius: 10px;
+    border: 2px solid #345952; /* Borde dorado */
+    box-shadow: 0 0 10px #345952, 0 0 20px #345952, 0 0 30px #345952; /* Sombra luminosa */
     /* filter: brightness(1.3); */
     /* box-shadow: inset 0 0 20px 20px rgba(214, 213, 213, 0.5); */
 }
